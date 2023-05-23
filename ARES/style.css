@@ -1,0 +1,152 @@
+body{
+
+    background-color: black;
+
+}
+
+.screen-container{
+
+    display: flex;
+    row-gap: 100px;
+    column-gap: 100px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.rviz-container{
+    
+    width: 700px;
+    
+}
+
+.rviz{
+
+    border: 5px solid red;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.map-container{
+    
+    text-align: center;
+
+}
+
+.map{
+
+    border: 5px solid red;
+    width: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}
+
+.canvas1{
+
+    border: 5px solid red;
+    width: 1200px;
+    height: 720px;
+
+}
+
+.container{
+
+    border: 5px solid red;
+    align-items: center;
+    justify-items: center;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+
+}
+
+.container-item{
+
+    grid-column: span 3 / span 3;
+
+}
+
+button{
+
+    background-color: red;
+    font-size: 55px;
+    color: white;
+
+}
+
+
+.otonom-manuel-surus{
+
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.acil-dur{
+
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.acil-dur button{
+
+    background: red
+
+}
+
+.acil-dur button.clicked{
+
+    background: green
+
+}
+
+.otonom-manuel-surus button{
+
+    background: red
+
+}
+
+.otonom-manuel-surus button.clicked1{
+
+    background: linear-gradient(to right, green 34%, red 34%);
+
+}
+
+.otonom-manuel-surus button.clicked2 {
+
+    background: linear-gradient(to right, red 0, red 35%, green 35%, green 65%, red 65%);
+
+}
+
+.otonom-manuel-surus button.clicked3 {
+
+    background: linear-gradient(to right, red 66%, green 34%);
+
+}
+
+@media only screen and (max-width: 2200px) {
+
+    .screen-container{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 100px;
+        column-gap: 0px;
+        
+    }
+
+}
+
+.paragraf h1{
+    text-align: center;
+    font-size: 100px;
+    color: red;
+
+}
